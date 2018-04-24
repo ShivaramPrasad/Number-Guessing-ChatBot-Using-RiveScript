@@ -1,0 +1,36 @@
+
+
++ set #
+- <set width=<formal>>
+
++ [*] rectangle [*]
+- rectangle
+
++ #
+- <set width=<star>><get width>
+
+
+
+
+// + *
+// - Hi, how are you doing?
+//
+// + [*] good [*]
+// - sounds great
+//
+// + what is your name
+// - My name is stuart little
+//
+// + hey
+// - Yes, I am here
+//
+// + my name is *
+// - <set name=<formal>>Nice to meet you, <get name>. How can i call you ?
+// - <set name=<formal>><get name>, nice to meet you. How can i call you ?
+//
+// + call me *
+// - <set name=<formal>><get name>, I will call you that from now on. What is your age <get name> ?
+//
+// + i am * years old
+// - <set age=<star>>A lot of people are <get age>, you're not alone.
+// - <set age=<star>>Cool, I'm <bot age> myself.{weight=49}
